@@ -1,0 +1,35 @@
+{
+  "stl_settings": {
+    "refinement": "medium",
+    "unit_type": "mm",
+    "output_folder": "",
+    
+    "surface_deviation": 0,
+    "normal_deviation": 0,
+    "max_edge_length": 0,
+    "aspect_ratio": 0
+  },
+  "parameter_sets": [
+	  {
+	    "name": "p005mm",
+	    "parameters": {
+	      "sukima": "0.05 mm",
+	      "case_lower_h": "2.5 mm"
+	    }
+	  },
+	  {
+	    "name": "p010mm",
+	    "parameters": {
+	      "sukima": "0.1 mm",
+	      "case_lower_h": "5 mm"
+	    }
+	  },
+	  {
+	    "name": "n001mm",
+	    "parameters": {
+	      "sukima": "-0.1 mm",
+	      "case_lower_h": "10 mm"
+	    }
+	  }
+  ]
+}
